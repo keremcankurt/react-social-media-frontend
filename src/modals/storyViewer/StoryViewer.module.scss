@@ -1,0 +1,21 @@
+.viewer{
+    text-decoration: none;
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 5px;
+  }
+  .viewer-profile{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    gap: 5px;
+    padding: 5px 10px;
+    color: white;
+    
+    
+  img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+}

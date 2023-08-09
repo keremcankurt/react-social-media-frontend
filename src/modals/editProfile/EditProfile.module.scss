@@ -1,0 +1,124 @@
+.modal-container{
+    background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  .container{
+    background-color: rgb(66, 66, 66);
+
+  }
+
+}
+.modal-content {
+    background-color: white;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #f5fff9;
+      text-align: center;
+    }
+  
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: #aaa;
+  
+      &:hover {
+        color: #333;
+      }
+    }
+  
+    .profile-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      margin-bottom: 20px;
+  
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+      }
+  
+      .add {
+        background-color: #3498db;
+        border: none;
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #2980b9;
+        }
+      }
+    }
+  
+    .form-input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  
+    .form-checkbox {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+      color: gray;
+      
+  
+      input[type="checkbox"] {
+        margin-right: 2px;
+      }
+  
+      .checkbox-label {
+        font-size: 1.1rem;
+      }
+    }
+  
+    .form-button {
+      background-color: #27ae60;
+      color: #fff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #219954;
+      }
+    }
+  }

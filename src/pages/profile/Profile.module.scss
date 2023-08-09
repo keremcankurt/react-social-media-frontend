@@ -1,0 +1,147 @@
+
+.container {
+    padding: 10px 11vw;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(65, 64, 64);
+    min-height: calc(100vh - 74px);
+    
+
+    .profile{
+        background-color: rgb(29, 28, 28);
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        gap: 20px;
+        position: relative;
+        .left{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 5px;
+            .edit{
+                background-color: rgb(12, 240, 12);
+                padding: 3px;
+                color: white;
+                &:hover{
+                    background-color: rgb(25, 146, 25);
+                }
+            }
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            .post-count{
+                color: gray;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .follower-count{
+                background: none;
+                border: none;
+                color: gray;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 4px;
+                cursor: pointer;
+            }
+            .following-count{
+                background: none;
+                border: none;
+                color: gray;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 4px;
+                cursor: pointer;
+            }
+        }
+        
+    }
+}
+
+    .follow{
+        padding: 3px 5px;
+        background-color: rgb(25, 161, 224);
+        color: rgb(214, 212, 212);
+        border-color: rgb(11, 101, 143);
+        border-radius: 5px;
+        white-space: nowrap;
+        &:hover{
+            background-color: rgb(17, 110, 153);
+        }
+
+    }
+    .unfollow{
+        padding: 3px 5px;
+        background-color: rgb(224, 38, 25);
+        color: rgb(214, 212, 212);
+        border-color: rgb(207, 26, 13);
+        border-radius: 5px;
+        white-space: nowrap;
+        &:hover{
+            background-color: rgb(184, 24, 12);
+        }
+
+    }
+
+    .loading{
+        cursor: pointer;
+        background-color: #b6b4b4 !important;
+        border-color: #181717 !important;
+        padding: 3px 5px;
+        color: rgb(44, 43, 43);
+        border-radius: 5px;
+        white-space: nowrap;
+    }
+    .buttons{
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+        white-space: nowrap;
+        gap: 4px;
+    }
+
+    .locationContainer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        margin: 8px; 
+    }
+    
+    .githubContainer {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 8px;
+    }
+    
+    .locationIcon,
+    .githubIcon {
+        margin-right: 4px
+    }
+    
+    .placeText {
+        color: gray;
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    
+    

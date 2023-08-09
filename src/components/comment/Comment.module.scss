@@ -1,0 +1,43 @@
+.comment {
+    margin-bottom: 10px;
+    background-color: rgb(80, 80, 80);
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 10px;
+    padding: 2px 5px;
+  
+    .comment-header {
+      display: flex;
+      justify-content: space-between;
+      
+      .left{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        margin-bottom: 5px;
+        .mini-profile {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
+    
+        .comment-createdAt {
+          color: #b6b5b5;
+          font-size: 10px;
+        }
+      }
+      .right{
+        background:none;
+        border: none;
+        height: fit-content;
+        cursor: pointer;
+      }
+  
+      
+    }
+    .content {
+      font-size: 14px;
+      color: rgb(252, 242, 242);
+      text-align: center;
+      margin: 10px;
+    }
+  }

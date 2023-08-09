@@ -1,0 +1,77 @@
+.container {
+    height: calc(100vh - 51px);
+    background-color: #252323;
+    color: rgb(214, 206, 206);
+    border-left: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+
+    .bottom{
+        display: flex;
+        flex: 7;
+        width: 100%;
+        .recommendedfriends{
+            display: flex;
+            flex-direction: column;
+            flex: 12;
+            margin: 5px;
+            background-color: #0f0e0e;
+            padding: 5px;
+            border: 1px solid rgb(65, 63, 63);
+            border-radius: 10px;
+            .title{
+                text-align: center;
+                margin-bottom: 10px;
+                text-decoration: underline;
+            }
+            .recommended{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+                margin: 20px 0px;
+                overflow: auto;
+                height: 55vh;
+                padding: 0px 5px;
+                &::-webkit-scrollbar {
+                    display: none;
+                  }
+            }
+            
+        }
+    }
+    .top{
+        flex: 2;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .content-container{
+            flex: 12;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin: 5px;
+            background-color: #0f0e0e;
+            padding: 10px;
+            border: 1px solid rgb(65, 63, 63);
+            border-radius: 10px;
+            gap: 15px;
+            a{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                font-size: 20px;
+                padding: 2px 5px;
+                background: none;
+                border: none;
+                color: rgb(190, 190, 190);
+                text-decoration: none;
+                &:hover{
+                    color: rgb(155, 154, 154);
+                }
+            }
+        }
+    }
+}

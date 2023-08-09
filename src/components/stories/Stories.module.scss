@@ -1,0 +1,68 @@
+.profile{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+    text-align: end;
+    text-decoration: none !important;
+    color: gray;
+    font-size: 16px;
+    white-space: nowrap;
+    gap: 5px;
+    margin: 2px 0;
+    button{
+        background: none !important;
+        border: none;
+    }
+    
+
+    .profile-image{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    gray-border {
+      border: 2px solid gray;
+    }
+    
+    .red-border {
+      border: 2px solid red;
+    }
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .modal {
+      background-color: #fff;
+      height: 100vh;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      position: relative;
+  
+      .close-button {
+        position: absolute;
+        width: fit-content;
+        margin: 0 auto;
+        bottom: 10px;
+        right: 0;
+        left: 0;
+        cursor: pointer;
+        color: #fff;
+        z-index: 9999;
+        background: rgb(58, 56, 56);
+        border: 1px solid gray;
+        padding: 5px;
+        border-radius: 5px;
+      }
+    }
+  }
+  
+
+
