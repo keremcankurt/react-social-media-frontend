@@ -1,6 +1,6 @@
+You can check it from https://kckmedia.netlify.app
 # Getting Started with Create React App
 
-This project was bootstrapped with [Social Media](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
